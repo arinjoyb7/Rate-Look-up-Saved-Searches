@@ -30,7 +30,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   templateUrl: 'table-basic-example.html',
 })
 export class TableBasicExample {
-  displayedColumns: string[] = ['position', 'mode', 'equipment', 'pickup','delivery','item'];
+  displayedColumns: string[] = ['position', 'mode', 'equipment', 'pickup','delivery'];
   dataSource = ELEMENT_DATA;
 }
 
